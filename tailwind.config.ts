@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					hover: 'hsl(var(--primary-hover))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -61,7 +62,30 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				jumia: {
+					orange: 'hsl(var(--jumia-orange))',
+					'dark-orange': 'hsl(var(--jumia-dark-orange))',
+					'light-orange': 'hsl(var(--jumia-light-orange))',
+					dark: 'hsl(var(--jumia-dark))',
+					gray: 'hsl(var(--jumia-gray))',
+					'light-gray': 'hsl(var(--jumia-light-gray))',
+					green: 'hsl(var(--jumia-green))',
+					red: 'hsl(var(--jumia-red))'
 				}
+			},
+			backgroundImage: {
+				'gradient-orange': 'var(--gradient-orange)',
+				'gradient-hero': 'var(--gradient-hero)'
+			},
+			boxShadow: {
+				'sm': 'var(--shadow-sm)',
+				'md': 'var(--shadow-md)',
+				'lg': 'var(--shadow-lg)',
+				'orange': 'var(--shadow-orange)'
+			},
+			transitionTimingFunction: {
+				'smooth': 'var(--transition-smooth)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
